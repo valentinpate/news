@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Wix+Madefor+Display:wght@400;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin: 3em 13em;
+}
+
+h1, h2, h3, h4, a{
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+p, button{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Secciones */
+
+header{
+    display:flex;
+    padding: 0 0 3em 0;
+    justify-content:space-between;
+}
+
+nav{
+    margin: 0.7em 0 0 0;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    margin:0 1em;
+}
+
+/* Subcontenedores */
+
+header img{
+    cursor:pointer;
+    padding: 0 0.1em 0.1em 0;
+    transition: box-shadow 0.5s;
+}
+
+.menu img{
+    width:63em;
+}
+
+.menu h1{
+    font-size:4.6rem;
+    line-height:1em;
+}
+
+.menuBody p{
+    font-size:1.5rem;
+    padding: 0 0 1.2em 0;
+}
+
+.menuBody button{
+    padding:1em 2em;
+    font-size:1rem;
+    word-spacing:0.3em;
+    letter-spacing:0.3em;
+    background-color:rgb(241,93,81);
+    border:2px solid rgb(241,93,81);
+    cursor:pointer;
+    color:white;
+    text-transform:uppercase;
+    transition: background-color 0.5s,
+                color 0.5s;
+}
+
+.newsSection h2{
+    font-size:2.8rem;
+    color:rgb(229,169,81);
+    padding-bottom:0.7em;
+}
+
+.newsSection h3{
+    font-size:1.6rem;
+    color:white;
+    padding-bottom:0.6em;
+    cursor:pointer;
+}
+
+.newsSection p{
+    font-size:1.1rem;
+    color:white;
+    padding-bottom:2em;
+}
+
+.newsSection hr{
+    margin-bottom:2em;
+}
+
+.secondSection img{
+    width:7.7em;
+}
+
+.part h1{
+    font-size:2.2rem;
+    color:rgb(189, 189, 189);
+    padding-bottom:0.2em;
+}
+
+.part h2{
+    font-size:1.3rem;
+    cursor:pointer;
+    padding-bottom:0.9em;
+}
+
+/* Pseudoclases */
+
+a:hover, .newsSection h3:hover, .part h2:hover{
+    text-decoration:underline;
+}
+
+header img:hover{
+    box-shadow: 2px 2px black;
+}
+
+.menuBody button:hover{
+    background-color:transparent;
+    color: rgb(241,93,81);
+}
+
+/* Clases */
+
+.firstSection{
+    display:flex;
+    padding-bottom:3em;
+}
+
+.menuText{
+    margin: 1em 0 0 0;
+    display:flex;
+    justify-content:space-between;
+}
+
+.menuBody{
+    padding-top:0.1em;
+    padding-right:1em;
+}
+
+.newsSection{
+    margin: 0 0 0 2.8em;
+    padding: 1.5em 1.5em;
+    width:23em;
+    height:33em;
+    border: 1px solid rgb(0,0,26);
+    background-color: rgb(0,0,26);
+}
+
+.secondSection{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.part{
+    display:flex;
+}
+
+.partText{
+    margin-left:1em;
+}
+
+.partText1{
+    margin-right:7.5em;
+}
+
+.partText2{
+    margin-right:6.3em;
+}
+
+.attribution{
+    margin-top:2em;
+}
