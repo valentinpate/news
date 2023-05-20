@@ -17,6 +17,10 @@ p, button{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+img[type=mobile]{
+    display:none;
+}
+
 /* Secciones */
 
 header{
@@ -128,6 +132,10 @@ header img:hover{
 
 /* Clases */
 
+.burger{
+    display:none;
+}
+
 .firstSection{
     display:flex;
     padding-bottom:3em;
@@ -176,4 +184,101 @@ header img:hover{
 
 .attribution{
     margin-top:2em;
+}
+
+@media (max-width:425px){
+    /* General */
+    body{
+        margin:0;
+    }
+    header{
+        width:74em;
+        height:7.5em;
+        margin: 4em 0 1em 1.5em;
+    }
+    nav{
+        display:none;
+    }
+    img[type=desktop]{
+        display:none;
+    }
+    img[type=mobile]{
+        display:block;
+        width:72.5em;
+        margin:0 0 0 1.5em;
+    }
+    /* Subcontenedores */
+    .menuText h1{
+        font-size:12.8rem;
+        padding-top:0.1em;
+        padding-left:0.2em;
+        padding-bottom:0.3em;
+    }
+    .menuText p{
+        font-size:3.4rem;
+        padding-left:0.4em;
+    }
+    .menuText button{
+        font-size:3rem;
+        margin-left:0.4em;
+        margin-bottom:2em;
+    }
+    .newsSection h2{
+        font-size:8rem;
+        padding-bottom:0.4em;
+    }
+    .newsSection h3{
+        font-size:4.6rem;
+        padding-bottom:0.3em;
+    }
+    .newsSection p{
+        font-size:3rem;
+        padding-bottom:1em;
+    }
+    .newsSection hr{
+        margin-bottom:3em;
+    }
+    .part img{
+        width:19.7em;
+    }
+    .part h1{
+        font-size:5.7rem;
+        padding-bottom:0.1em;
+    }
+    .part h2{
+        font-size:3rem;
+        padding-bottom:0.6em;
+    }
+    .part p{
+        font-size:2.7rem;
+    }
+    /* Clases */
+    .burger{
+        display:flex;
+        font-size:7.5rem;
+        padding-right:0.1em;
+    }
+    .firstSection{
+        flex-direction:column;
+    }
+    .menuText{
+        flex-direction:column;
+        width:74.5em;
+    }
+    .newsSection{
+        margin: 0 0 2em 1.2em;
+        width:70em;
+        height:76em;
+    }
+    .secondSection{
+        flex-direction:column;
+        width:74.5em;
+    }
+    .part{
+        margin: 2em 0 2em 6em;
+    }
+    .partText{
+        margin: 0 0 0 4em;
+        padding-top:2em;
+    }
 }
