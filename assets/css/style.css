@@ -186,6 +186,95 @@ header img:hover{
     margin-top:2em;
 }
 
+@media (max-width:1024px){
+    /* General */
+   body{
+       margin:0;
+   }
+   header{
+       width:74em;
+       height:3em;
+       margin: 4em 0 0.5em 1.5em;
+   }
+   nav{
+       padding-right:1.5em;
+       padding-bottom:0.6em;
+   }
+   /* Subcontenedores */
+   nav a{
+       font-size:1.3rem;
+   }
+   .menu img{
+       width:42.5em;
+       margin:0 0 0 1.5em;
+   }
+   .menuText h1{
+       font-size:3.5rem;
+       padding-left:0.4em;
+       padding-bottom:0.3em;
+   }
+   .menuText p{
+       font-size:1rem;
+
+   }
+   .menuText button{
+       font-size:1rem;
+       /* margin-right:1.8em; */
+       margin-bottom:1.5em;
+   }
+   .newsSection h2{
+    font-size:2rem;
+    padding-bottom:0.4em;
+    }
+    .newsSection h3{
+    font-size:1.6rem;
+    padding-bottom:0.3em;
+    }
+    .newsSection p{
+        font-size:1.2rem;
+        padding-bottom:1.5em;
+    }
+    .newsSection hr{
+        margin-bottom:1.5em;
+    }
+   .part img{
+       width:7.7em;
+   }
+   .part h1{
+       font-size:2rem;
+       padding-bottom:0.1em;
+   }
+   .part h2{
+       font-size:1rem;
+       padding-bottom:0.6em;
+   }
+   .part p{
+       font-size:1rem;
+   }
+   /* Clases */
+   .firstSection{
+    flex-direction:row;
+    width:73em;
+    }
+   .menuText{
+       width:43.4em;
+   }
+   .newsSection{
+       width:25em;
+       height:28em;
+   }
+   .secondSection{
+       width:73em;
+   }
+   .part{
+       margin: 2em 0 2em 0;
+   }
+   .partText{
+       margin: 0 0 0 0.7em;
+       padding-top:1em;
+   }
+}
+
 @media (max-width:768px){
      /* General */
     body{
